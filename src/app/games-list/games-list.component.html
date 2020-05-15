@@ -1,0 +1,14 @@
+<div class="list" >
+  <mat-grid-list class="grid" cols="3" rowHeight=2:3 gutterSize="50px">
+    <mat-grid-tile *ngFor="let element of dataSource; index as name">
+      <img [src]="element.imageUrl" />
+        <mat-grid-tile-footer>
+          <a [title]="element.name " [routerLink]="['/gamepage', name]">
+            {{element.name}}
+          </a>
+         
+        </mat-grid-tile-footer>
+    </mat-grid-tile>
+    </mat-grid-list>
+</div>
+

@@ -1,0 +1,21 @@
+mat-grid-tile {
+    background-color: rgb(66, 18, 64);
+    width: 10px;
+  }
+
+  mat-grid-list {
+    
+    width: 700px;
+  }
+
+  .list{
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid{
+    width: 800px;
+    margin-left: 350px;
+  }
+
+
